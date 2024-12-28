@@ -1,0 +1,22 @@
+a {
+    color: #a45;
+    text-decoration:none;
+    }
+a:visited {
+    color: #a45;
+    text-decoration:none;
+    }
+a:hover {
+    color: #f45;
+    font-size: 17;
+    text-decoration:underline;
+    }
+table, td {
+    text-align: center;
+    }
+/* En pantallas de 640px de ancho o menos, usar dos columnas en lugar de cuatro */
+@media screen and (max-width: 640px) { 
+ .column {
+    width: 50%;
+    }
+   }
