@@ -1,17 +1,21 @@
-a {
-    color: #a45;
+* {
+    color: #ccc;
+    background-color: #231;
+    }
+a:link {
+    color: #bb6;
     text-decoration:none;
     }
 a:visited {
-    color: #a45;
+    color: #bb6;
     text-decoration:none;
     }
 a:hover {
-    color: #f45;
+    color: #f4a;
     font-size: 17;
     text-decoration:underline;
     }
-table, td {
+table, td, p {
     text-align: center;
     }
 /* En pantallas de 640px de ancho o menos, usar dos columnas en lugar de cuatro */
