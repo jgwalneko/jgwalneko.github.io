@@ -1,0 +1,26 @@
+* {
+    color: #ccc;
+    background-color: #181819;
+    }
+a:link {
+    color: #bb6;
+    text-decoration:none;
+    }
+a:visited {
+    color: #bb6;
+    text-decoration:none;
+    }
+a:hover {
+    color: #9c7543;
+    font-size: 17;
+    text-decoration:underline;
+    }
+p {
+    text-align: center;
+    }
+/* En pantallas de 640px de ancho o menos, usar dos columnas en lugar de cuatro */
+@media screen and (max-width: 640px) { 
+ .column {
+    width: 50%;
+    }
+   }
