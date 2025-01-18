@@ -18,10 +18,9 @@ a:hover {
 p {
     text-align: center;
     }
-/* En pantallas de 640px de ancho o menos, usar dos columnas en lugar de cuatro 
+/* En pantallas de 640px de ancho o menos, usar dos columnas en lugar de cuatro */
 @media screen and (max-width: 640px) { 
  .column {
-    width: 50%;
+    width: 60%;
     }
-   }
-*/
+   } 
